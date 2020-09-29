@@ -31,6 +31,12 @@ body{
 #logo{
     width: 70%;
     float: left;
+    text-shadow: 2px 2px 3px #ccc;
+    text-shadow: 2px -2px 3px #ccc;
+}
+#logo:hover{
+    text-shadow: -2px -2px 3px #ccc;
+    text-shadow: 2px 2px 3px #ccc;
 }
 #logo h1{
     width: 350px;
@@ -40,6 +46,7 @@ body{
     font-size: 50px;
     padding: 5px;
 }
+
 
 #sidebar{
     width: 25%;
@@ -83,7 +90,7 @@ body{
 
 #pantallaJuego{
     width: 70%;
-    min-height: 500px;
+    min-height: 580px;
     float: left;
     background-color: #c4fff9;
     box-shadow: 2px 2px 3px #ccc;
@@ -122,15 +129,22 @@ body{
     display: block;
     margin:0 auto;
     width: 95%;
-    min-height: 500px;
+    max-height: 400px;
+    margin:20px;
     /*border: 2px solid red;*/
 }
 .caja{
-    width: 30%;
+    width: 31%;
     min-height: 160px;
-    border: 2px solid black;
+    border: 7px solid rgb(75, 70, 70);
     float: left;
+    
 }
 #footer{
+    width: 90%;
+    height: 45px;
     color:white;
+    margin-top: 20px;
+    text-align: center;
+
 }
