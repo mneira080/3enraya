@@ -2,10 +2,12 @@
 <html lang="es">
 
 <head>
+    <title>Best 3 en raya ever</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
+    <script src="3enraya.js"></script>
 </head>
 
 <body>
@@ -29,15 +31,15 @@
         <section id="content">
             <div id="pantallaJuego">
                 <div id="contenedorCajas">
-                    <div class="caja" id="caja0" onclick="comprovar('caja0')"></div>
-                    <div class="caja" id="caja1" onclick="comprovar('caja1')"></div>
-                    <div class="caja" id="caja2" onclick="comprovar('caja2')"></div>
-                    <div class="caja" id="caja3" onclick="comprovar('caja3')"></div>
-                    <div class="caja" id="caja4" onclick="comprovar('caja4')"></div>
-                    <div class="caja" id="caja5" onclick="comprovar('caja5')"></div>
-                    <div class="caja" id="caja6" onclick="comprovar('caja6')"></div>
-                    <div class="caja" id="caja7" onclick="comprovar('caja7')"></div>
-                    <div class="caja" id="caja8" onclick="comprovar('caja8')"></div>
+                    <div class="caja" id="0" onclick="comprovar('0')"></div>
+                    <div class="caja" id="1" onclick="comprovar('1')"></div>
+                    <div class="caja" id="2" onclick="comprovar('2')"></div>
+                    <div class="caja" id="3" onclick="comprovar('3')"></div>
+                    <div class="caja" id="4" onclick="comprovar('4')"></div>
+                    <div class="caja" id="5" onclick="comprovar('5')"></div>
+                    <div class="caja" id="6" onclick="comprovar('6')"></div>
+                    <div class="caja" id="7" onclick="comprovar('7')"></div>
+                    <div class="caja" id="8" onclick="comprovar('8')"></div>
                 </div>
 
             </div>
@@ -59,20 +61,6 @@
             </div>
         </footer>
     </div>
-    <script>
-        function determinarTurno(){
-
-        }
-        function comprovar(nom){
-            var pieza = document.getElementById(nom);
-            if (pieza == "O" || pieza == "X"){
-                return false;
-            } else {
-                document.getElementById(nom).innerHTML = "O";;
-            }
-        }
-    </script> 
 </body>
-
 </html>
 
